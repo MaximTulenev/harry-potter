@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', cursive;
+}
+
+.bg {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(180deg, rgba(2,0,36,0.5) 0%, rgb(2,0,36,0.5) 100%), url("../header.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+nav a {
+  color: #FFFFFF;
+}
+
+h1 {
+  color: #FFFFFF;
+}
+
+p {
+  color: #FFFFFF;
+}
+
+.aft::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: rgb(245, 158, 11);
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.aft:hover::after {
+  width: 100%;
+}
+
+
+/* philosopher-stone */
+.bg1 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(180deg, rgba(2,0,36,0.5) 0%, rgb(2,0,36,0.5) 100%), url(../film_img/philosopher-stone.jpg);
+  background-size: cover;
+}
+
+
+.film {
+  color: #FF6600;
+}
+
+.film:hover {
+  text-decoration: underline;
+}
+
+.ozon {
+  color: #005BFF;
+}
+
+.wildberries {
+  color: #CB11AB;
+}
+
+.chitay-gorod {
+  color: #26A9E0;
+}
+
+.ozon:hover {
+  text-decoration: underline;
+}
+
+.wildberries:hover {
+  text-decoration: underline;
+}
+
+.chitay-gorod:hover {
+  text-decoration: underline;
+}
+
+
+/* chamber-of-secret */
+.bg2 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(180deg, rgba(2,0,36,0.5) 0%, rgb(2,0,36,0.5) 100%), url(../film_img/chamber-of-secret.jpg);
+  background-size: cover;
+}
+
+
+/* prisoner-of-the-azkaban */
+.bg3 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(180deg, rgba(2,0,36,0.5) 0%, rgb(2,0,36,0.5) 100%), url(../film_img/prisoner-of-the-azkaban.jpg);
+  background-size: cover;
+}
+
+
+/* goblet-of-fire */
+.bg4 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(180deg, rgba(2,0,36,0.5) 0%, rgb(2,0,36,0.5) 100%), url(../film_img/goblet-of-fire.jpg);
+  background-size: cover;
+}
+
+
+/* order-of-the-phoenix */
+.bg5 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(180deg, rgba(2,0,36,0.5) 0%, rgb(2,0,36,0.5) 100%), url(../film_img/order-of-the-phoenix.jpg);
+  background-size: cover;
+}
+
+
+/* half-blood-prince */
+.bg6 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(180deg, rgba(2,0,36,0.5) 0%, rgb(2,0,36,0.5) 100%), url(../film_img/half-blood-prince.jpg);
+  background-size: cover;
+}
+
+
+/* deathly-hallows-1 */
+.bg7 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(180deg, rgba(2,0,36,0.5) 0%, rgb(2,0,36,0.5) 100%), url(../film_img/deathly-hallows.jpg);
+  background-size: cover;
+}
+
+
+/* deathly-hallows-2 */
+.bg8 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(180deg, rgba(2,0,36,0.5) 0%, rgb(2,0,36,0.5) 100%), url(../film_img/deathly-hallows-2.jpg);
+  background-size: cover;
+}
+
+/* footer */
+.foot a {
+  color: #000000;
+}
+
+.foot a:hover {
+  color: #000000;
+}

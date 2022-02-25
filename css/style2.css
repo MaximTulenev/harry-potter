@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', cursive;
+}
+
+.bg {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(180deg, rgba(2,0,36,0.5) 0%, rgb(2,0,36,0.5) 100%), url("../charaters.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+nav a {
+  color: #FFFFFF;
+}
+
+h1 {
+  color: #FFFFFF;
+}
+
+p {
+  color: #FFFFFF;
+}
+
+.aft::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: rgb(245, 158, 11);
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.aft:hover::after {
+  width: 100%;
+}
+
+.black {
+  color: #000000;
+}
+
+.gryffindor {
+  width: 100%;
+  height: 50px;
+  background-color: #EF4444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.slytherin {
+  width: 100%;
+  height: 50px;
+  background-color: #10B981;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.ravenclaw {
+  width: 100%;
+  height: 50px;
+  background-color: #3B82F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.hufflepuff {
+  width: 100%;
+  height: 50px;
+  background-color: #F59E0B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.teachers {
+  width: 100%;
+  height: 50px;
+  background-color: #808080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.order-of-the-phoenix {
+  width: 100%;
+  height: 50px;
+  background-color: #B22222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.death-eaters {
+  width: 100%;
+  height: 50px;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.ministry-of-magic {
+  width: 100%;
+  height: 50px;
+  background-color: #800080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.other-main-characters {
+  width: 100%;
+  height: 50px;
+  background-color: #008B8B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.muggles {
+  width: 100%;
+  height: 50px;
+  background-color: #008B8B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.magical-creatures {
+  width: 100%;
+  height: 50px;
+  background-color: #8B4513;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+
+/* footer */
+.foot a {
+  color: #000000;
+}
+
+.foot a:hover {
+  color: #000000;
+}
